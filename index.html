@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- partial:index.partial.html -->
+<center>
+  <div class="main">
+        <div class="one">
+          <div class="register">
+            <h3>Registration Form</h3>
+            <form id="reg-form" action="https//://httpbin.org/post">
+              <div>
+                <label for="name">First Name:</label>
+                <input type="text" id="name" spellcheck="false" placeholder="Enter Your First Name" required>
+              </div>
+
+              <div>
+                <label for="name">Last Name:</label>
+                <input type="text" id="name" spellcheck="false" placeholder="Enter Your Last Name" required>
+              </div>
+
+              <div>
+                <label for="date of birth">Date Of Birth:</label>
+                <input type="date">
+              </div>
+
+                
+              <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" spellcheck="false" placeholder="Enter Your Mail" required>
+              </div>
+              
+              <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+              </div>
+
+              <div>
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" placeholder="Enter Your Mobile Number" required>
+              </div>
+
+              <div>
+                
+                
+                <input type="submit" value="Register Now" id="Register Now" class="button" formaction="https://httpbin.org/post" formmethod="post">
+              </div>
+            </form>
+            <div class="sep">
+              <span class="or">OR</span>
+            </div>
+            <div class="connect">
+              <div class="social-buttons facebook">
+                <a href="#">
+                  <span>Facebook</span>
+                </a>
+              </div>
+              <div class="social-buttons twitter">
+                <a href="#">
+                  <span>Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </center>
+      
+  <!-- partial -->
+  <script  src="./script.js"></script>
+  
+</body>
+</html>
